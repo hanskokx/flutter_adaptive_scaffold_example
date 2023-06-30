@@ -19,3 +19,8 @@ The definition of done is as follows:
 - /nav1/2
 
 This solution solves each of these problems and meets the definition of done. However, there is still room for improvement. Pull requests are welcome.
+
+Demonstration:
+
+https://github.com/hanskokx/flutter_adaptive_scaffold_example/assets/1911919/0c78fc86-f1e9-4792-8fca-246321278b8f
+
