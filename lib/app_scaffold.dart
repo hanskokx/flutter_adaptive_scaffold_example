@@ -15,11 +15,7 @@ class AppScaffold extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-// AdaptiveLayout has a number of slots that take SlotLayouts and these
-// SlotLayouts' configs take maps of Breakpoints to SlotLayoutConfigs.
     return AdaptiveLayout(
-      // Body switches between a ListView and a GridView from small to medium
-      // breakpoints and onwards.
       body: SlotLayout(
         config: <Breakpoint, SlotLayoutConfig>{
           Breakpoints.small: SlotLayout.from(
